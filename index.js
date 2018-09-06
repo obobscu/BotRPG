@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 var prefix = "+";
 
-client.login("NDg2OTQwMTY4MjA5NTYzNjQ4.DnHElQ.MuASZahsKuoedVCP4eABrp5RIE0");
+client.login("process.env.TOKEN");
 
 client.on ("ready", () => {
     console.log("Je suis connecté et opérationnel !")
